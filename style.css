@@ -248,6 +248,17 @@ h3 {
     }
 }
 
+@media screen and (max-width:360px) {
+    .naw_menu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .naw_name {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
 @media screen and (max-width: 500px){
     .item1 {
         margin-top: 40px;
